@@ -1,0 +1,22 @@
+.imagenFondo{
+	-fx-background-image: url("sky.jpeg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+	
+}
+.jfx-button:hover {
+	-fx-background-color: black;
+}
+.jfx-button{
+	-fx-background-color:  #f2b90f;
+}
+.oo{
+	-fx-background-color: #f2b90f;
+}
+
+.imagenFondo1{
+	-fx-background-image: url("profilephoto.png");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+	
+}
