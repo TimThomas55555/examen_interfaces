@@ -37,6 +37,8 @@ public class MainRocket extends Application {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("Mars.fxml"));
 			AnchorPane pane = loader.load();
 			Scene scene = new Scene(pane);		
+			// adding Google fonts
+			// scene.getStylesheets().add("https://fonts.googleapis.com/css?family=McLaren");
 
 			stage.setScene(scene);
 			stage.show();

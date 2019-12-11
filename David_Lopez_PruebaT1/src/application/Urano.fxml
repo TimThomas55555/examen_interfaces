@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -20,7 +21,7 @@
             <Insets />
          </opaqueInsets>
       </Pane>
-      <Pane fx:id="pane4" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="600.0">
+      <Pane fx:id="pane4" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -30,5 +31,6 @@
             <Font size="18.0" />
          </font>
       </Label>
+      <JFXButton layoutX="400.0" layoutY="400.0" onAction="#cerrarVentana" prefWidth="100.0" style="-fx-background-color: white;" text="Close" />
    </children>
 </AnchorPane>

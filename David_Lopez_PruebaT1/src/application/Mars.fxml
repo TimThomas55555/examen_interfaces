@@ -32,7 +32,7 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <VBox GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <VBox alignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <children>
                         <Label alignment="CENTER" contentDisplay="CENTER" text="Login" textFill="#686868">
                            <opaqueInsets>
@@ -85,7 +85,7 @@
             </GridPane>
          </center>
          <bottom>
-            <Pane prefHeight="25.0" prefWidth="25.0" styleClass="oo" BorderPane.alignment="CENTER" />
+            <Pane prefHeight="25.0" prefWidth="25.0" styleClass="footer" BorderPane.alignment="CENTER" />
          </bottom>
          <top>
             <Pane prefHeight="100.0" prefWidth="200.0" styleClass="imagenFondo" BorderPane.alignment="CENTER" />

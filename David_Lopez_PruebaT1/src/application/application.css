@@ -10,13 +10,7 @@
 .jfx-button{
 	-fx-background-color:  #f2b90f;
 }
-.oo{
+.footer{
 	-fx-background-color: #f2b90f;
 }
 
-.imagenFondo1{
-	-fx-background-image: url("profilephoto.png");
-	-fx-background-size: 100%;
-	-fx-background-repeat: no-repeat ;
-	
-}
